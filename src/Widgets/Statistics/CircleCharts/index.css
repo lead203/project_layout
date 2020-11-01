@@ -1,0 +1,88 @@
+.wrapperBlock {
+    position: relative;
+    margin-right: 17px;
+    min-width: 480px;
+}
+
+.wrapperBlock:last-child {
+    
+}
+
+.borderBlock {
+    border: 1px solid rgba(186, 193, 207, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.titleBlock {
+    padding: 0px 4px;
+    position: absolute;
+    top: -8px;
+    left: 24px;
+    background: #FFF;
+    color: #006FBA;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.borderBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    padding-left: 19px;
+    margin-left: 16px;
+    border-left: 1px solid rgba(186, 193, 207, 0.5);
+}
+
+.descriptionTitel {
+    color: #BAC1CF;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.descriptionStat {
+    display: flex;
+    align-items: center;
+}
+
+.countAll {
+    color: #46435C;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.descriptionInfo {
+    margin-left: 16px;
+    max-width: 160px;
+}
+
+.descriptionInfo p {
+    color: #46435C;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.lastWeekInfo {
+    display: flex;
+}
+
+.lastWeekInfo p {
+    color: #808299;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 5px;
+}
+
+.lastWeekInfo span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 12px;
+    color: #46435C;
+}
+
+.m-b-15 {
+    margin-bottom: 15px;
+}

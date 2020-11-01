@@ -1,0 +1,93 @@
+.statistics {
+    background: #FFFFFF;
+    border: 2px solid rgba(186, 193, 207, 0.1);
+    box-shadow: 0px 0px 15px rgba(2, 112, 187, 0.1);
+    border-radius: 15px;
+    padding: 39px 20px 26px;
+    margin-right: 21px;
+}
+
+.blockTop, .blockBottom {
+    display: flex;
+}
+
+.blockBottom {
+    margin-top: 34px;
+}
+
+.blockBottom .wrapperBlock:last-child, .borderBlockWrapper {
+    width: 100%;
+    margin-right: 0;
+}
+
+.borderBlockWrapper {
+    border: 1px solid rgba(186, 193, 207, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 200px;
+}
+
+tr td:first-child {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.colorAllActPrj {
+    color: #46435C;
+}
+
+.expiredColor {
+    color: #D60100;
+}
+
+.soonColor {
+    color: #F9A63F;
+}
+
+.colorStatus {
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.colorStatus:first-child {
+    margin-top: 15px;
+}
+
+.colorStatus:last-child {
+    margin-bottom: 0;
+}
+
+.colorStatus span {
+    color: #46435C;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 19px;
+}
+
+.colorStarusBlock {
+    width: 12px;
+    height: 12px;
+}
+
+.allColorBg {
+    background: rgba(186, 193, 207, 0.3);
+}
+
+.expiredColorBg {
+    background: #D60100;
+}
+
+.holdColorBg {
+    background: #006FBA;
+}
+
+.soonColorBg {
+    background: #F9A63F;
+}
+
+.myProjects:last-child {
+    padding-left: 19px;
+    margin-left: 16px;
+    border-left: 1px solid rgba(186, 193, 207, 0.5);
+}

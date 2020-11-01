@@ -1,0 +1,141 @@
+.headerWrapper {
+    background: #FFFFFF;
+    border: 2px solid rgba(186, 193, 207, 0.1);
+    box-shadow: 0px 0px 15px rgba(2, 112, 187, 0.1);
+    border-radius: 15px;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.headerRight {
+    justify-content: flex-end;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    margin: 15px 0px 31px 69px;
+}
+
+.searchWrapper {
+    background: rgba(237, 244, 252, 0.5);
+    border: 1px solid rgba(186, 193, 207, 0.5);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 520px;
+    margin-left: 80px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serchBtn {
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.search input, .search button {
+    background: none;
+    border: none;
+}
+
+.inputText {
+    font-size: 13px;
+    line-height: 15px;
+    color: #BAC1CF;
+    padding: 17px 0 17px 19px;
+    width: 100%;
+}
+
+.inputText input {
+    width: 100%;
+}
+
+.dateTime {
+    position: relative;
+    margin-right: 79px;
+}
+
+.time {
+    font-size: 36px;
+    line-height: 50px;
+    color: #006FBA;
+}
+
+.date {
+    position: absolute;
+    color: #BAC1CF;
+    font-size: 14px;
+    line-height: 21px;
+    top: 42px;
+    left: 16px;
+    /* margin: 0 1px 0 16px; */
+}
+
+.date {
+    width: 100%;
+}
+
+.notifications {
+    background-color: #006FBA;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-right: 41px;
+}
+
+.bellIcon {
+    padding: 9px 12px 11px 8px;
+    position: absolute;
+}
+
+.notificationsCount {
+    background: #FFB100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 0px;
+    margin-right: 0px;
+}
+
+.notificationsCount span {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 18px;
+    margin-left: 0px;
+}
+
+.profileName {
+    margin-left: 12px;
+}
+
+.profileName span {
+    color: #46435C;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}

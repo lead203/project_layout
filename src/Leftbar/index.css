@@ -1,0 +1,17 @@
+.leftSiteBar {
+    width: auto;
+}
+
+.iconBar {
+    padding: 15px;
+    margin: 0px 30px 20px;
+}
+
+.active {
+    background: #006FBA;
+    border-radius: 15px;
+}
+
+.menu {
+    margin: 84px 47px 58px 48px;
+}
