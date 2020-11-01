@@ -4,10 +4,6 @@
     min-width: 480px;
 }
 
-.wrapperBlock:last-child {
-    
-}
-
 .borderBlock {
     border: 1px solid rgba(186, 193, 207, 0.5);
     border-radius: 10px;

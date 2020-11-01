@@ -12,6 +12,10 @@
     border-radius: 15px;
 }
 
+.active:hover {
+    background: #3383b8;
+}
+
 .menu {
     margin: 84px 47px 58px 48px;
 }

@@ -10,6 +10,7 @@ function App() {
       <Leftbar />
       <div className="content">
         <Header />
+
         <div className="titleBox">
           <span>Виджеты</span>
           <div className="borderLine"></div>
@@ -18,6 +19,11 @@ function App() {
         <div className="Widgets">
           <Statistics />  
           <Services />
+        </div>
+
+        <div className="titleBox">
+          <span>Задачи</span>
+          <div className="borderLine"></div>
         </div>
       </div>
     </div>

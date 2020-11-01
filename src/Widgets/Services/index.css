@@ -5,6 +5,7 @@
     border-radius: 15px;
     padding: 22px 20px 29px;
     width: 100%;
+    max-width: 415px;
 }
 
 .servicesTitle {
@@ -33,10 +34,22 @@
 }
 
 .linkImg img{
-    padding: 10px;
-    background: rgba(237, 244, 252, 0.5);
+    background-color: #FFF;
     border: 1px solid rgba(186, 193, 207, 0.1);
     border-radius: 50%;
+}
+
+.noIcon img {
+    background: rgba(237, 244, 252, 0.5);
+    padding: 10px;
+}
+
+.p-5 img {
+    padding: 5px;
+}
+
+.p-2 {
+    padding: 5px 2px;
 }
 
 .servicesName {
